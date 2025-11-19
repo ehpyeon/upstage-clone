@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/upstage-clone/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/upstage-clone/$1"
+    }
+  ]
+}
