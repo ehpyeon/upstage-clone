@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "/upstage-clone/index.html"
-    },
-    {
       "source": "/(.*)",
-      "destination": "/upstage-clone/$1"
+      "destination": "/$1"
     }
   ]
 }

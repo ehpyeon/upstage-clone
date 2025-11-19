@@ -8,7 +8,20 @@
       "Bash(curl -I http://localhost:8000/)",
       "Bash(git init)",
       "Bash(git add .)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Upstage AI homepage clone\n\n- Complete HTML structure with all sections\n- Responsive CSS design with modern styling\n- Interactive JavaScript features\n- Rotating hero text animation\n- Testimonial carousel\n- Cookie consent banner\n- Scroll animations\n- Mobile-responsive layout\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Upstage AI homepage clone\n\n- Complete HTML structure with all sections\n- Responsive CSS design with modern styling\n- Interactive JavaScript features\n- Rotating hero text animation\n- Testimonial carousel\n- Cookie consent banner\n- Scroll animations\n- Mobile-responsive layout\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(gh --version)",
+      "Bash(gh repo create upstage-clone --public --source=. --remote=origin --push)",
+      "Bash(vercel --version)",
+      "Bash(npm install -g vercel)",
+      "Bash(git add vercel.json)",
+      "Bash(git commit -m \"Add Vercel configuration\")",
+      "Bash(git push)",
+      "Bash(vercel --prod --yes)",
+      "Bash(vercel ls)",
+      "Bash(vercel alias)",
+      "Bash(vercel inspect https://upstage-clone-claude-9rj9unioe-psss-projects-2836c8c1.vercel.app)",
+      "Bash(git add -A)",
+      "Bash(git commit -m \"Restructure for root-level deployment\n\n- Move all files to root directory\n- Update vercel.json for cleaner URLs\n- Remove nested upstage-clone folder\n- Enable direct access at domain root\")"
     ],
     "deny": [],
     "ask": []

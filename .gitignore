@@ -30,3 +30,4 @@ node_modules/
 .temp/
 *.tmp
 hello
+.vercel
